@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.pixelgang.iaptest" version="1.0">
+ <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" id="com.pixelgang.iaptest" version="1.1">
 
 	<name>PG IAP Test</name>
 	<description>Atest of the inap purchase</description>
@@ -17,10 +17,11 @@
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
+	<gap:plugin name="cordova-plugin-payment-iap" source="npm" />
 
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="16" />
-	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+	
 
 	<plugin name="cordova-plugin-wkwebview-engine" />
 	<plugin name="cordova-plugin-file" />
@@ -30,6 +31,7 @@
 	<access origin="*" />
 
 	<plugin name="https://github.com/cranberrygame/cordova-plugin-payment-iap" source="npm" />
+	<plugin name="https://github.com/cranberrygame/cordova-plugin-ad-admob" source="npm" /> 
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
