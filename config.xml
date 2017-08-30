@@ -12,8 +12,6 @@
 	<preference name="android-targetSdkVersion" value="21" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
-	<feature name="http://api.phonegap.com/1.0/camera"/>
-	<plugin name="cordova-plugin-media" source="npm" />
 
 	<preference name="orientation" value="landscape" />
 	<preference name="fullscreen" value="true" />

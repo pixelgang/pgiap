@@ -19146,7 +19146,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.admob.prototype.acts.ShowInterstitial,
-	cr.plugins_.cranberrygame_CordovaIAP.prototype.acts.RequestStoreListing,
 	cr.plugins_.cranberrygame_CordovaIAP.prototype.acts.PurchaseProduct,
 	cr.plugins_.cranberrygame_CordovaIAP.prototype.cnds.OnPurchaseProductSucceeded
 ];};
